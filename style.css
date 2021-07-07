@@ -1,86 +1,44 @@
-.nav{
-    position: fixed;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    padding: 1rem 6.5rem;
-    background: transparent;
-    transition: all 0.5s ease;
-    z-index: 100000;
+*html,body
+{
+margin: 0;
+padding: 0;
 }
-.nav .navbar-toggler{
-    display: none;
-    border: none;
-    outline: none;
-
-}
-.nav .navbar-toggler .toggler-icon{
-    width: 27px;
-    height: 3px;
-    background-color: #121212;
-    margin: 5px 0;
-    position: relative;
-    display: block;
-    transition: all 0.3s ease-out 0s;
-}
-.nav .menu-bar .menu-items{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.nav .menu-bar .menu-items li{
-    margin: 0 25px;
-    display: inline;
-
-}
-.nav .menu-bar .menu-items li a{
-    color: black;
-    font-size: 18px;
-    font-weight: 600;
+header{
+    background-color:deepskyblue;
+    height: 112px;
+    line-height: 112px;
 }
 ul{
-    list-style-type: none;
-
+   list-style: none;
 }
-.nav .menu-bar .menu-items li a:hover{
-    color: blue;
+ul li{
+    display: inline-block;
 }
-.nav .navbar-social{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+nav ul{
+    margin-left: 850px;
+    margin-top:-115px;
+    float: right;
 }
-.nav .navbar-social ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.logo{
+    margin-top: 30px;
 }
-.nav .navbar-social span{
-    font-size: 18px;
-    font-weight: 600;
+header nav ul li a{
     padding-right: 10px;
-    color: black;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
 }
-.nav .navbar-social ul li a{
-    color: black;
-    font-size: 12px;
+header nav ul li a:hover{
+    text-decoration: none;
+    color: orange;
 }
-.nav .navbar-social ul li a:hover{
-    color: blue;
+.row a{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
 }
-.nav .navbar-social ul li{
-    margin: 0 7px;
-}
-.back{
-    background-image: url(images/banner1.jpg);
-    widht: 80%;
-    height: 120vh;
-    background-size: cover;
-    background-attachment: fixed;
-    
+.row a:hover{
+    text-decoration: none;
 }
